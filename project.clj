@@ -34,7 +34,7 @@
                 :source-paths ["src"]
                 :compiler {:output-to "resources/public/js/compiled/intro-min.js"
                            :main intro.core
-                           :optimizations :advanced
+                           :optimizations :none
                            :pretty-print false}}]}
 
   :figwheel {:css-dirs ["resources/public/css"]
