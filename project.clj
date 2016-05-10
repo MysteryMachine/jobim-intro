@@ -10,7 +10,7 @@
                  [com.cemerick/piggieback "0.2.1"]
                  [reagent "0.6.0-alpha"]
                  [fipp "0.6.4"]
-                 [org.clojars.mysterysal/jobim "1.1.3-SNAPSHOT"]
+                 [org.clojars.mysterysal/jobim "2.0.0-SNAPSHOT"]
                  [org.clojars.mysterysal/jobim-figwheel "0.1.0"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
