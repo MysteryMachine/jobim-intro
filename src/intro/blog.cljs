@@ -82,10 +82,10 @@
   (jobim/custom-slide
    (fn [& _]
      (into [:ul] (map (fn [i] (into [:li] i)))
-           [["To append to the end of a vector, list, or set, we use " (jobim/inline (conj data-strucure 1)) ". "]
-            ["To grab the first item of a list or vector, we use " (jobim/inline (first data-structure)) ". "]
-            ["To randomly access something within a vector, we use " (jobim/inline (nth my-vector 3)) ". "]
-            ["To access something within a hash-map, we use " (jobim/inline (get my-hash-map :a)) ". "]
+           [["To append to the end of a vector, list, or set, we use " (jobim/inline (conj data-strucure 1))]
+            ["To grab the first item of a list or vector, we use " (jobim/inline (first data-structure))]
+            ["To randomly access something within a vector, we use " (jobim/inline (nth my-vector 3))]
+            ["To access something within a hash-map, we use " (jobim/inline (get my-hash-map :a))]
             ["To add something to a map we use " (jobim/inline (assoc my-hash-map :new-entry 1))]])))
   (jobim/text
    "Additionally, Clojure offers hygenic, homoiconic macros to reduce boilerplate. "
